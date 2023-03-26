@@ -14,6 +14,7 @@ font-family: 'Slackey', cursive;
     --white: #ffffff;
     --bgimage: url(images/xsxs.png);
     --brown: #927575;
+    --ltbrown: #d1b5b5;
     --grey-light: #A6A6A6;
     --grey: #545454;
     --greynav: rgba(255, 255, 255, 0.116);
@@ -53,13 +54,22 @@ font-family: 'Slackey', cursive;
     background-color: var(--brown);
 }
 
+.bg-ltbrown {
+    background-color: var(--ltbrown);
+}
+
 .bg-green {
     background-color: var(--green);
 }
 
-.textcolor {
+.textwhite {
     color: var(--white);
 }
+
+.textgreen {
+    color: var(--green);
+}
+
 
 .mod-nav {
     background-color: var(--greynav);
@@ -165,7 +175,7 @@ font-family: 'Slackey', cursive;
 }
 
 .joinUs:hover {
-    color: var(--ltgreen);
+    color: var(--ltbrown);
 }
 
 .img-poster {
@@ -219,6 +229,14 @@ font-family: 'Slackey', cursive;
 
 .col-desc {
     width: 600px;
+}
+
+.sumEvents {
+    width: fit-content;
+    font-size: 12px;
+    background-color: var(--ltbrown);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media (max-width: 1270px) {
