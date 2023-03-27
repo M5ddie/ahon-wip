@@ -10,26 +10,26 @@
 </head>
 <body>
     
-    <div class="mod-navheader d-flex flex-column justify-content-between">
-    
-        <!-- START : Navigation ========================= -->
-        <nav class="container-fluid py-2 py-sm-3 d-flex flex-wrap align-items-center justify-content-center mod-nav">
-            <a href="index.html">
-                <img src="assets/images/logo.png" alt="">
-            </a>
-    
-            <div class="m-auto p-1 p-sm-3 rounded-3 nav-links">
-                <ul class="d-flex flex-wrap p-0 m-0">
-                    <li class="px-1 px-sm-5"><a href="index.html">Home</a></li>
-                    <li class="px-1 px-sm-5"><a href="index.html#about">About</a></li>
-                    <li class="px-1 px-sm-5"><a href="events.html">Events</a></li>
-                    <li class="px-1 px-sm-5"><a href="#">Contact</a></li>
-                </ul>
-            </div>
-    
-        </nav>
-        <!-- END : Navigation =========================== -->
-    
+    <!-- START : Navigation ========================= -->
+    <nav class="container-fluid py-2 py-sm-3 d-flex flex-wrap align-items-center justify-content-center mod-nav">
+        <a href="index.html">
+            <img src="assets/images/logo.png" alt="">
+        </a>
+
+        <div class="m-auto p-1 p-sm-3 rounded-3 nav-links">
+            <ul class="d-flex flex-wrap p-0 m-0">
+                <li class="px-1 px-sm-5"><a href="index.html">Home</a></li>
+                <li class="px-1 px-sm-5"><a href="index.html#about">About</a></li>
+                <li class="px-1 px-sm-5"><a href="events.html">Events</a></li>
+                <li class="px-1 px-sm-5"><a href="index.html#contactUs">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!-- END : Navigation =========================== -->
+
+    <div class="mod-navheader d-flex flex-column justify-content-between">    
+        <div></div>
         <!-- START : Header ============================= -->
         <header class="container-fluid d-flex flex-wrap-reverse justify-content-evenly align-items-center position-relative">
     
@@ -44,7 +44,7 @@
                 </div>
                 
                 <div class="d-flex justify-content-end">
-                    <a class="joinUs" href="#joinUs">Join Us!</a>
+                    <a class="joinUs" href="index.html#joinUs">Join Us!</a>
                 </div>
             </div>
     
@@ -59,7 +59,7 @@
     </div>
 
     <!-- START : Event list ====================== -->
-    <div class="m-4">
+    <div class="m-4" id="upevent">
       <h3>Upcoming Events...</h3>
     </div>
 
@@ -98,7 +98,6 @@
                         <li><a class="dropdown-item" href="#volunteer" data-bs-toggle="modal" data-bs-target="#volunteer">Volunteer</a></li>
                         
                         <li><a class="dropdown-item" href="#sponsor" data-bs-toggle="modal" data-bs-target="#sponsor">Sponsor</a></li>
-                        <li><a class="dropdown-item" href="#organize" data-bs-toggle="modal" data-bs-target="#organize">Organize</a></li>
                     </ul>
                 </div>
     
@@ -141,7 +140,6 @@
                         <li><a class="dropdown-item" href="#volunteer" data-bs-toggle="modal" data-bs-target="#volunteer">Volunteer</a></li>
                         
                         <li><a class="dropdown-item" href="#sponsor" data-bs-toggle="modal" data-bs-target="#sponsor">Sponsor</a></li>
-                        <li><a class="dropdown-item" href="#organize" data-bs-toggle="modal" data-bs-target="#organize">Organize</a></li>
                     </ul>
                 </div>
     
@@ -171,6 +169,10 @@
             </div>
             <div class="d-sm-flex justify-content-between align-items-center ">
     
+                <span class="m-0 text-end">
+                    <a class="text-decoration-none" href="#">View Event Details -></a>
+                </span>
+    
                 <div class="dropdown">
                     <button class="btn btn-success bg-green dropdown-toggle" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -180,13 +182,8 @@
                         <li><a class="dropdown-item" href="#volunteer" data-bs-toggle="modal" data-bs-target="#volunteer">Volunteer</a></li>
                         
                         <li><a class="dropdown-item" href="#sponsor" data-bs-toggle="modal" data-bs-target="#sponsor">Sponsor</a></li>
-                        <li><a class="dropdown-item" href="#organize" data-bs-toggle="modal" data-bs-target="#organize">Organize</a></li>
                     </ul>
                 </div>
-    
-                <span class="m-0 text-end">
-                    <a class="text-decoration-none" href="#">View Event Details -></a>
-                </span>
     
             </div>
         </div>
@@ -214,6 +211,10 @@
             </div>
             <div class="d-sm-flex justify-content-between align-items-center ">
     
+                <span class="m-0 text-end">
+                    <a class="text-decoration-none" href="#">View Event Details -></a>
+                </span>
+    
                 <div class="dropdown">
                     <button class="btn btn-success bg-green dropdown-toggle" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -223,13 +224,8 @@
                         <li><a class="dropdown-item" href="#volunteer" data-bs-toggle="modal" data-bs-target="#volunteer">Volunteer</a></li>
                         
                         <li><a class="dropdown-item" href="#sponsor" data-bs-toggle="modal" data-bs-target="#sponsor">Sponsor</a></li>
-                        <li><a class="dropdown-item" href="#organize" data-bs-toggle="modal" data-bs-target="#organize">Organize</a></li>
                     </ul>
                 </div>
-    
-                <span class="m-0 text-end">
-                    <a class="text-decoration-none" href="#">View Event Details -></a>
-                </span>
     
             </div>
         </div>
@@ -257,6 +253,10 @@
             </div>
             <div class="d-sm-flex justify-content-between align-items-center ">
     
+                <span class="m-0 text-end">
+                    <a class="text-decoration-none" href="#">View Event Details -></a>
+                </span>
+    
                 <div class="dropdown">
                     <button class="btn btn-success bg-green dropdown-toggle" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -266,13 +266,8 @@
                         <li><a class="dropdown-item" href="#volunteer" data-bs-toggle="modal" data-bs-target="#volunteer">Volunteer</a></li>
                         
                         <li><a class="dropdown-item" href="#sponsor" data-bs-toggle="modal" data-bs-target="#sponsor">Sponsor</a></li>
-                        <li><a class="dropdown-item" href="#organize" data-bs-toggle="modal" data-bs-target="#organize">Organize</a></li>
                     </ul>
                 </div>
-    
-                <span class="m-0 text-end">
-                    <a class="text-decoration-none" href="#">View Event Details -></a>
-                </span>
     
             </div>
         </div>
@@ -312,370 +307,263 @@
     <!-- END : Forms ================================= -->
 
     <!-- START : How to join ======================== -->
-    <div class="bg-brown" id="joinUs">
-        <div class="row container-fluid m-auto p-2 flex-column flex-sm-row">
-            <!-- VOLUNTEER COLUMN -->
-            <div class="col m-1 p-1 p-sm-4 d-flex flex-column justify-content-between shadow">
-                <!-- end volunteer desc -->
-                <div>
-                    <p class="text-center">
-                        We believe that everyone has unique skills and talents that can be used to make a positive impact in the world. That's why we offer a variety of volunteer opportunities that allow you to choose the activity that best fits your area of expertise.
-                    </p>
-                </div>
-                <!-- end volunteer desc -->
-                <!-- volunteer button -->
-                <div class="p-2">
-                    <!-- volunteer modal trigger -->
-                    <button type="button" class="btn p-0 w-100" data-bs-toggle="modal" data-bs-target="#volunteer">
-                        <p class="vol-sp-org"> VOLUNTEER </p>
-                    </button>
-                    <!-- volunteer modal trigger -->
-
-                    <!-- Modal: volunteer form : screen 1-->
-                    <div class="modal fade" id="volunteer" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
-                        aria-labelledby="volunteerLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content bg-light">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="volunteerLabel">Welcome, volunteer!</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body pt-4">
-                                    <form class="row g-3 fs12">
-                                        <div class="col-md-6">
-                                            <label for="userName" class="form-label">Please enter full name</label>
-                                            <input type="text" class="form-control py-0 fs14" id="userName" required>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for="userAge" class="form-label">Age</label>
-                                            <input type="number" class="form-control py-0 fs14" id="userAge">
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for="userGender" class="form-label">Gender</label>
-                                            <input type="text" class="form-control py-0 fs14" id="userGender">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="userMobileM" class="form-label">Mobile (main)</label>
-                                            <input type="tel" class="form-control py-0 fs14" id="userMobileM" pattern="[0-9]{11}"
-                                                placeholder="ex. 09123456789" maxlength="11">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="userMobileB" class="form-label">Mobile (backup)</label>
-                                            <input type="tel" class="form-control py-0 fs14" id="userMobileB" pattern="[0-9]{11}"
-                                                placeholder="ex. 09123456789" maxlength="11">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="EmergencyConPerson" class="form-label">Emergency Contact Person</label>
-                                            <input type="text" class="form-control py-0 fs14" id="EmergencyConPerson">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="userMobileE" class="form-label">Emergency Contact</label>
-                                            <input type="tel" class="form-control py-0 fs14" id="userMobileE" pattern="[0-9]{11}"
-                                                placeholder="ex. 09123456789" maxlength="11">
-                                        </div>
-                                        <div class="col-12">
-                                            <label for="inputAddress" class="form-label">Please enter complete address</label>
-                                            <input type="text" class="form-control py-0 fs14" id="inputAddress" placeholder="1234 Main St">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="inputCity" class="form-label">City</label>
-                                            <input type="text" class="form-control py-0 fs14" id="inputCity">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <label for="inputRegion" class="form-label">Region</label>
-                                            <select id="inputRegion" class="form-select py-0 fs14">
-                                                <option selected disabled>...</option>
-                                                <option value="ncr">NCR</option>
-                                                <option value="car">CAR</option>
-                                                <option value="mimaropa">MIMAROPA</option>
-                                                <option value="barmm">BARMM</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="inputEvent" class="form-label">I want to join:</label>
-                                            <select id="inputEvent" class="form-select py-0 fs14">
-                                                <option selected disabled>Choose an event...</option>
-                                                <option value="ncr">Wow Batulao</option>
-                                                <option value="car">Project Tuli</option>
-                                                <option value="mimaropa">Sakat Dumagat</option>
-                                                <option value="barmm">Puso Para Sa Puno</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                                <label class="form-check-label" for="gridCheck">
-                                                    Yes, I have read and submitted the waiver.
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <!-- end modal body -->
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#volunteer2">Submit</button>
-                                </div>
-                            </div>
-                            <!-- end modal content -->
-                        </div>
-                        <!-- end modal dialog -->
-                    </div>
-                    <!-- end Modal: volunteer form : screen 1-->
-                    <!-- Volunteer Modal : screen 2 -->
-                    <div class="modal fade" id="volunteer2" aria-hidden="true" aria-labelledby="volunteer2Label" data-bs-backdrop="static"
-                        tabindex="-1">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="volunteer2Label">Thanks! See you on site!</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Please contact the organizer for much updated news about your chosen event.
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-target="#volunteer" data-bs-toggle="modal">Review details</button>
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                            <!-- end modal content -->
-                        </div>
-                        <!-- end modal dialog -->
-                    </div>
-                    <!-- end Volunteer Modal : screen 2 -->
-                </div>
-                <!-- end volunteer button -->
+    <!-- Modal: VOLUNTEER form : screen 1-->
+    <div class="modal fade" id="volunteer" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="volunteerLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content ">
+            <div class="modal-header border-bottom-0 mod-modal">
+                <h6 class="modal-title" id="volunteerLabel">Welcome, <span class="fsAlkatra">Volunteer</span>!</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <!-- END VOLUNTEER COLUMN -->
-
-            <!-- SPONSOR COLUMN -->
-            <div class="col m-1 p-1 p-sm-4 d-flex flex-column justify-content-between shadow">
-                <!-- end SPONSOR desc -->
-                <div>
-                    <p class="text-center">
-                        You can offer something as simple as a book, school supplies, clothing, toys, medicine, groceries, or even provide financial assistance. These items can make a big difference in the lives of children and families who may not have access to these basic necessities.
-                    </p>
-                </div>
-                <!-- end SPONSOR desc -->
-                <!-- SPONSOR button -->
-                <div class="p-2">
-                    <!-- SPONSOR modal trigger -->
-                    <button type="button" class="btn p-0 w-100" data-bs-toggle="modal" data-bs-target="#sponsor">
-                        <p class="vol-sp-org"> SPONSOR </p>
-                    </button>
-                    <!-- SPONSOR modal trigger -->
-
-                    <!-- Modal: SPONSOR form : screen 1-->
-                    <div class="modal fade" id="sponsor" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
-                        aria-labelledby="sponsorLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content bg-light">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="sponsorLabel">Welcome, Sponsor!</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body pt-4">
-                                    <form class="row g-3 fs12">
-                                        <div class="col-md-6">
-                                            <label for="userName" class="form-label">Please enter full name</label>
-                                            <input type="text" class="form-control py-0 fs14" id="userName" required>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for="userAge" class="form-label">Age</label>
-                                            <input type="number" class="form-control py-0 fs14" id="userAge">
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for="userGender" class="form-label">Gender</label>
-                                            <input type="text" class="form-control py-0 fs14" id="userGender">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="userMobileM" class="form-label">Mobile (main)</label>
-                                            <input type="tel" class="form-control py-0 fs14" id="userMobileM" pattern="[0-9]{11}"
-                                                placeholder="ex. 09123456789" maxlength="11">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="userMobileB" class="form-label">Mobile (backup)</label>
-                                            <input type="tel" class="form-control py-0 fs14" id="userMobileB" pattern="[0-9]{11}"
-                                                placeholder="ex. 09123456789" maxlength="11">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="inputEvent" class="form-label">Donate for:</label>
-                                            <select id="inputEvent" class="form-select py-0 fs14">
-                                                <option selected disabled>Choose an event...</option>
-                                                <option value="event">Wow Batulao</option>
-                                                <option value="event">Project Tuli</option>
-                                                <option value="event">Sakat Dumagat</option>
-                                                <option value="event">Puso Para Sa Puno</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="inputEvent" class="form-label">Donation in-kind:</label>
-                                            <select id="inputEvent" class="form-select py-0 fs14">
-                                                <option selected disabled>...</option>
-                                                <option value="donation">School supplies</option>
-                                                <option value="donation">Books</option>
-                                                <option value="donation">Medicines and vitamins</option>
-                                                <option value="donation">Groceries</option>
-                                                <option value="donation">Clothes</option>
-                                            </select>
-                                        </div>
-                                    </form>
-                                </div>
-                                <!-- end modal body -->
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sponsor2">Submit</button>
-                                </div>
-                            </div>
-                            <!-- end modal content -->
+            <form action="#">
+                <div class="modal-body pt-4 mod-modal">
+                    <div class="row g-3 fs12">
+                        <div class="col-md-6">
+                            <label for="userName" class="form-label">Please enter full name</label>
+                            <input type="text" class="form-control py-0 fs14" id="userName" required>
                         </div>
-                        <!-- end modal dialog -->
-                    </div>
-                    <!-- end Modal: SPONSOR form : screen 1 -->
-                    <!-- SPONSOR Modal : screen 2 -->
-                    <div class="modal fade" id="sponsor2" aria-hidden="true" aria-labelledby="sponsor2Label" data-bs-backdrop="static" tabindex="-1">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="sponsor2Label">Thanks for your gift/s!</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <!-- end modal header -->
-                                <div class="modal-body">
-                                    Please contact the organizer for much updated news about your chosen event.
-                                </div>
-                                <!-- end modal body -->
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-target="#sponsor" data-bs-toggle="modal">Review details</button>
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                            <!-- end modal content -->
+                        <div class="col-md-3">
+                            <label for="userAge" class="form-label">Age</label>
+                            <input type="number" class="form-control py-0 fs14" id="userAge">
                         </div>
-                        <!-- end modal dialog -->
-                    </div>
-                    <!-- END SPONSOR Modal : screen 2 -->
-                </div>
-                <!-- end SPONSOR button -->
-            </div>
-            <!-- END SPONSOR COLUMN -->
-
-            <!-- ORGANIZE COLUMN -->
-            <div class="col m-1 p-1 p-sm-4 d-flex flex-column justify-content-between shadow">
-                <!-- end ORGANIZE desc -->
-                <div>
-                    <p class="text-center">
-                        By starting a project and inviting volunteers to join you, you can make a positive impact in your community and beyond. So why wait? Create a project today and start making a difference.
-                    </p>
-                </div>
-                <!-- end ORGANIZE desc -->
-                <!-- ORGANIZE button -->
-                <div class="p-2">
-                    <!-- ORGANIZE modal trigger -->
-                    <button type="button" class="btn p-0 w-100" data-bs-toggle="modal" data-bs-target="#organize">
-                        <p class="vol-sp-org"> ORGANIZE </p>
-                    </button>
-                    <!-- ORGANIZE modal trigger -->
-
-                    <!-- Modal: ORGANIZE form : screen 1-->
-                    <div class="modal fade" id="organize" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
-                        aria-labelledby="organizeLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content bg-light">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="organizeLabel">Welcome, Organizer!</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body pt-4">
-                                    <form class="row g-3 fs12">
-                                        <div class="col-md-6">
-                                            <label for="userName" class="form-label">Please enter full name</label>
-                                            <input type="text" class="form-control py-0 fs14" id="userName" required>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for="userAge" class="form-label">Age</label>
-                                            <input type="number" class="form-control py-0 fs14" id="userAge">
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for="userGender" class="form-label">Gender</label>
-                                            <input type="text" class="form-control py-0 fs14" id="userGender">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="userMobileM" class="form-label">Mobile (main)</label>
-                                            <input type="tel" class="form-control py-0 fs14" id="userMobileM" pattern="[0-9]{11}"
-                                                placeholder="ex. 09123456789" maxlength="11">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="userMobileB" class="form-label">Mobile (backup)</label>
-                                            <input type="tel" class="form-control py-0 fs14" id="userMobileB" pattern="[0-9]{11}"
-                                                placeholder="ex. 09123456789" maxlength="11">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="inputEvent" class="form-label">Start a project:</label>
-                                            <select id="inputEvent" class="form-select py-0 fs14">
-                                                <option selected disabled>Choose an event...</option>
-                                                <option value="event">Wow Batulao</option>
-                                                <option value="event">Project Tuli</option>
-                                                <option value="event">Sakat Dumagat</option>
-                                                <option value="event">Puso Para Sa Puno</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label for="inputEvent" class="form-label">Event needs:</label>
-                                            <select id="inputEvent" class="form-select py-0 fs14">
-                                                <option selected disabled>...</option>
-                                                <option value="donation">School supplies</option>
-                                                <option value="donation">Books</option>
-                                                <option value="donation">Medicines and vitamins</option>
-                                                <option value="donation">Groceries</option>
-                                                <option value="donation">Clothes</option>
-                                            </select>
-                                        </div>
-                                    </form>
-                                </div>
-                                <!-- end modal body -->
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#organize2">Submit</button>
-                                </div>
-                            </div>
-                            <!-- end modal content -->
+                        <div class="col-md-3">
+                            <label for="userGender" class="form-label">Gender</label>
+                            <input type="text" class="form-control py-0 fs14" id="userGender">
                         </div>
-                        <!-- modal dialog -->
-                    </div>
-                    <!-- end Modal: ORGANIZE form : screen 1 -->
-                    <!-- ORGANIZE Modal : screen 2 -->
-                    <div class="modal fade" id="organize2" aria-hidden="true" aria-labelledby="organize2Label" data-bs-backdrop="static" tabindex="-1">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="organize2Label">Thanks for your gift/s!</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <!-- end modal header -->
-                                <div class="modal-body">
-                                    Please contact the organizer for much updated news about your chosen event.
-                                </div>
-                                <!-- end modal body -->
-                                <div class="modal-footer">
-                                    <button class="btn btn-primary" data-bs-target="#organize" data-bs-toggle="modal">Review details</button>
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                            <!-- end modal content -->
+                        <div class="col-md-6">
+                            <label for="userMobileM" class="form-label">Mobile (main)</label>
+                            <input type="tel" class="form-control py-0 fs14" id="userMobileM" pattern="[0-9]{11}"
+                                placeholder="ex. 09123456789" maxlength="11">
                         </div>
-                        <!-- end modal dialog -->
+                        <div class="col-md-6">
+                            <label for="userMobileB" class="form-label">Mobile (backup)</label>
+                            <input type="tel" class="form-control py-0 fs14" id="userMobileB" pattern="[0-9]{11}"
+                                placeholder="ex. 09123456789" maxlength="11">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="EmergencyConPerson" class="form-label">Emergency Contact Person</label>
+                            <input type="text" class="form-control py-0 fs14" id="EmergencyConPerson">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="userMobileE" class="form-label">Emergency Contact</label>
+                            <input type="tel" class="form-control py-0 fs14" id="userMobileE" pattern="[0-9]{11}"
+                                placeholder="ex. 09123456789" maxlength="11">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Please enter complete address</label>
+                            <input type="text" class="form-control py-0 fs14" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control py-0 fs14" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputRegion" class="form-label">Region</label>
+                            <select id="inputRegion" class="form-select py-0 fs14">
+                                <option selected disabled>...</option>
+                                <option value="ncr">NCR</option>
+                                <option value="car">CAR</option>
+                                <option value="mimaropa">MIMAROPA</option>
+                                <option value="barmm">BARMM</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEvent" class="form-label">I want to join:</label>
+                            <select id="inputEvent" class="form-select py-0 fs14">
+                                <option selected disabled>Choose an event...</option>
+                                <option value="ncr">Wow Batulao</option>
+                                <option value="car">Project Tuli</option>
+                                <option value="mimaropa">Sakat Dumagat</option>
+                                <option value="barmm">Puso Para Sa Puno</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Yes, I have read and submitted the waiver.
+                                </label>
+                            </div>
+                        </div>
                     </div>
-                    <!-- END ORGANIZE Modal : screen 2 -->
                 </div>
-                <!-- end ORGANIZE button -->
-            </div>
-            <!-- END ORGANIZE COLUMN -->
+                <!-- end modal body -->
+                <div class="modal-footer border-top-0 mod-modal">
+                    <button type="button" class="btnvso" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btnvso" data-bs-toggle="form" data-bs-target="#organize2">Submit</button>
+                </div>
+            </form>
         </div>
-        <!-- END of ROW -->
+        <!-- end modal content -->
     </div>
+    <!-- modal dialog -->
+</div>
+<!-- end Modal: VOLUNTEER form : screen 1 -->
+
+    <!-- Modal: SPONSOR form : screen 1-->
+    <div class="modal fade" id="sponsor" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="sponsorLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content ">
+            <div class="modal-header border-bottom-0 mod-modal">
+                <h6 class="modal-title" id="sponsorLabel">Welcome, <span class="fsAlkatra">Sponsor</span>!</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="#">
+                <div class="modal-body pt-4 mod-modal">
+                    <div class="row g-3 fs12">
+                        <div class="col-md-6">
+                            <label for="userName" class="form-label">Please enter full name</label>
+                            <input type="text" class="form-control py-0 fs14" id="userName" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="userGender" class="form-label">Gender</label>
+                            <input type="text" class="form-control py-0 fs14" id="userGender">
+                        </div>
+                        <div class="col-md-3">
+                            
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Do you want to be anonymous?
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="userMobileM" class="form-label">Mobile (main)</label>
+                            <input type="tel" class="form-control py-0 fs14" id="userMobileM" pattern="[0-9]{11}"
+                                placeholder="ex. 09123456789" maxlength="11">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="userMobileB" class="form-label">Mobile (backup)</label>
+                            <input type="tel" class="form-control py-0 fs14" id="userMobileB" pattern="[0-9]{11}"
+                                placeholder="ex. 09123456789" maxlength="11">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEvent" class="form-label">Donate for:</label>
+                            <select id="inputEvent" class="form-select py-0 fs14">
+                                <option selected disabled>Choose an event...</option>
+                                <option value="event">Wow Batulao</option>
+                                <option value="event">Project Tuli</option>
+                                <option value="event">Sakat Dumagat</option>
+                                <option value="event">Puso Para Sa Puno</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            
+                        </div>
+                        <div class="col-md-6 d-flex">
+                                <img class="qrcodes m-3" src="assets/images/bpi.png">
+                                <img class="qrcodes m-3" src="assets/images/maya.png">
+                                <img class="qrcodes m-3" src="assets/images/gcash.png">
+                        </div>
+                    </div>
+                </div>
+                <!-- end modal body -->
+                <div class="modal-footer border-top-0 mod-modal">
+                    <button type="button" class="btnvso" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btnvso" data-bs-toggle="form" data-bs-target="#organize2">Submit</button>
+                </div>
+            </form>
+        </div>
+        <!-- end modal content -->
+    </div>
+    <!-- modal dialog -->
+</div>
+<!-- end Modal: SPONSOR form : screen 1 -->
+    
+    <!-- Modal: ORGANIZE form : screen 1-->
+    <div class="modal fade" id="organize" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" 
+    aria-labelledby="organizeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content ">
+            <div class="modal-header border-bottom-0 mod-modal">
+                <h6 class="modal-title" id="organizeLabel">Welcome, <span class="fsAlkatra">Organizer</span>!</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="#">
+                <div class="modal-body pt-4 mod-modal">
+                    <div class="row g-3 fs12">
+                        <div class="col-md-6">
+                            <label for="userName" class="form-label">Please enter full name</label>
+                            <input type="text" class="form-control py-0 fs14" id="userName" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="userAge" class="form-label">Age</label>
+                            <input type="number" class="form-control py-0 fs14" id="userAge">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="userGender" class="form-label">Gender</label>
+                            <input type="text" class="form-control py-0 fs14" id="userGender">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="userMobileM" class="form-label">Mobile (main)</label>
+                            <input type="tel" class="form-control py-0 fs14" id="userMobileM" pattern="[0-9]{11}"
+                                placeholder="ex. 09123456789" maxlength="11">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="userMobileB" class="form-label">Mobile (backup)</label>
+                            <input type="tel" class="form-control py-0 fs14" id="userMobileB" pattern="[0-9]{11}"
+                                placeholder="ex. 09123456789" maxlength="11">
+                        </div>
+                        <div class="col-md-12">
+                            <span class="fs14">--- Event Details ---</span>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="userEventName" class="form-label">Event Name</label>
+                            <input type="text" class="form-control py-0 fs14" id="userEventName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="userEventGroup" class="form-label">Team/Group Name</label>
+                            <input type="text" class="form-control py-0 fs14" id="userEventGroup" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="userEventDateFrom" class="form-label">From</label>
+                            <input type="date" class="form-control py-0 fs14" id="userEventDateFrom" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="userEventDateTo" class="form-label">To</label>
+                            <input type="date" class="form-control py-0 fs14" id="userEventDateTo" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="userEventTime" class="form-label">Time (PHT)</label>
+                            <input type="time" class="form-control py-0 fs14" id="userEventTime" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="userEventLoc" class="form-label">Location</label>
+                            <input type="text" class="form-control py-0 fs14" id="userEventLoc" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="userEventPax" class="form-label">Max participants</label>
+                            <input type="number" class="form-control py-0 fs14" id="userEventPax">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="userEventFee" class="form-label">Joining fee</label>
+                            <input type="text" class="form-control py-0 fs14" id="userEventFee">
+                        </div>
+
+                        <div class="col">
+                            <label for="userInstruction" class="form-label">Other instructions:</label>
+                            <textarea class="form-control py-0 fs14" id="userInstruction" rows="4" cols="50">Things to bring...</textarea>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end modal body -->
+                <div class="modal-footer border-top-0 mod-modal">
+                    <button type="button" class="btnvso" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btnvso" data-bs-toggle="form" data-bs-target="#organize2">Submit</button>
+                </div>
+            </form>
+        </div>
+        <!-- end modal content -->
+    </div>
+    <!-- modal dialog -->
+</div>
+<!-- end Modal: ORGANIZE form : screen 1 -->
     <!-- END : How to join ========================== -->
 
     <!-- START : Footer ============================= -->
@@ -688,23 +576,7 @@
               <span class="mb-3 mb-md-0 text-muted">© 2023 Company, Inc</span>
             </div>
         
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-              <li class="ms-3">
-                <a class="text-muted" href="#">
-                <i class="fa-brands fa-facebook"></i>
-                </a>
-              </li>
-              <li class="ms-3">
-                <a class="text-muted" href="#">
-                  <i class="fa-brands fa-google-plus"></i>
-                </a>
-              </li>
-              <li class="ms-3">
-                <a class="text-muted" href="#">
-                  <i class="fa-brands fa-twitter"></i>
-                </a>
-              </li>
-            </ul>
+            
           </footer>
     </div>
     <!-- END : Footer =============================== -->
